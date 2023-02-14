@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding-left: 50px;
+    width: 90%;
+    background-color: #fafafa;
+    font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+p code {
+    background-color: #bebcbc;
+    padding: 0 0.2rem;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+h3 code {
+    background-color: #bebcbc;
+    padding: 0 0.2rem;
+    font-size: 1.2em;
+    border-radius: 3px;
+}
+
+#cabecalho, section, footer {
+    margin-bottom: 100px;
+    width: 80%;
+}
+
+article {
+    margin-bottom: 30px; 
+}

@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: "Segoe UI","Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+table {
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.menu {
+    width: 15%;
+    background-color: #fafafa;
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-image: url(img/clin.med.wallpaper.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: white;
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+#footer {
+    margin-top: 100px;
+    min-height: 150px;
+    text-align: center;
+}
+
+#footer h3 {
+    margin: 0;
+    text-align: center;
+}
+
+table thead th{
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #f1f1f1;
+
+}
+
+table tbody tr:hover td{
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+}
